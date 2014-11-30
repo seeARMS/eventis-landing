@@ -1,3 +1,5 @@
+@import "animations.css";
+
 body {
   font-family: Roboto,sans-serif;
 }
@@ -20,6 +22,18 @@ body {
   -webkit-transition: color .3s,background-color .3s!important;
 }
 
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+
+  .navbar-brand {
+    color: #fff;
+    font-weight: 300;
+    font-size: 32px;
+  }
+
+}
 
 // a {
 //   margin: 0;
@@ -49,26 +63,9 @@ body {
     z-index: 3;
     height: 122px;
     width: 621px;
-    border: 0px solid rgb(0, 0, 0);
     background-color: transparent;
     top: 218px;
     left: 0px;
-    -moz-border-radius-topleft: 0;
-    -moz-border-radius-topright: 0px;
-    -moz-border-radius-bottomleft: 0;
-    -moz-border-radius-bottomright: 0;
-    -webkit-border-top-left-radius: 0;
-    -webkit-border-top-right-radius: 0px;
-    -webkit-border-bottom-left-radius: 0;
-    -webkit-border-bottom-right-radius: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    -moz-box-shadow: 0px 0px 0px #ffffff;
-    -webkit-box-shadow: 0px 0px 0px #ffffff;
-    box-shadow: 0px 0px 0px #ffffff;
-
 
     .btn-container {
       margin: 20px 0;
@@ -100,7 +97,7 @@ body {
     }
 
 
-    h2 {
+    h2,h3 {
       font-family: Roboto,sans-serif;
       font-weight: 300;
       margin: 0px;
@@ -116,9 +113,14 @@ body {
 
       }
 
+
     }
 
-    h3 {}
+    h3 {
+      font-size: 32px;
+      color: #f5f5f5;
+
+    }
 
   }
 
